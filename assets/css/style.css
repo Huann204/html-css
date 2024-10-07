@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+.head {
+  background-color: #fff;
+  height: 55px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.head .real {
+  font-size: 15px;
+  padding: 8px 16px;
+}
+.head .title {
+  margin: 8px 16px;
+}
+.nav .nav-right {
+  display: flex;
+}
+.nav .nav-right li {
+  padding: 8px 16px;
+}
+.head .nav {
+  margin: 8px 16px;
+}
+.title .real:hover {
+  background-color: #ccc;
+}
+.nav .nav-right li:hover {
+  background-color: #ccc;
+}
+.content {
+  margin-top: 55px;
+}
+.content .slider {
+  background-image: url(/assets/img/hamburger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50%;
+  position: relative;
+}
+.content .slider .content-slider {
+  position: absolute;
+  padding: 12px 24px;
+  left: 0;
+  bottom: 0;
+}
+.content-slider h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+.content1 {
+  padding: 64px 0;
+  display: flex;
+  justify-content: center;
+}
+.content1-right {
+  width: 502px;
+  padding: 12px 24px;
+}
+.content1-left {
+  width: 502px;
+  padding: 12px 24px;
+}
+.img-conten1 {
+  /* padding: 12px 24px; */
+}
+.img-conten1 img {
+  max-width: 100%;
+  height: auto;
+}
+.nd1,
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.nd1,
+.nd2 {
+  margin: 10px 0;
+}
+.nd2,
+h5 {
+  font-size: 18px;
+  text-align: center;
+}
+.nd3,
+p {
+  font-size: 18px;
+  margin: 18px 0;
+}
+.nd3 span {
+  background-color: #f1f1f1;
+}
